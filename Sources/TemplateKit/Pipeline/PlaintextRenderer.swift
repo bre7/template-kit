@@ -1,5 +1,5 @@
 /// Renders templates as plaintext.
-public final class PlaintextRenderer: TemplateRenderer, TemplateParser {
+public final class PlaintextRenderer: ViewRenderer, TemplateRenderer, TemplateParser {
     /// See `TemplateRenderer`.
     public var tags: [String: TagRenderer]
 
